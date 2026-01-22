@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = "force-dynamic";
+
 import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { UI_THEME } from '@/lib/uiTheme';
